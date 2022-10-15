@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+  
+}
+h2{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+   position: relative;
+   top: 90px;
+   padding: 20px;
+  padding-left: 100px;
+   
+}
+
+.top .img-logo{
+   position: absolute;
+   left: 100px;
+    top: 100px;
+   left: 150px;
+    
+}
+select{
+    position: absolute;
+    left: 800px;
+    top: 455px;
+    text-align: center;
+}
+label{
+    position: absolute;
+    left: 620px;
+    top: 443px;
+    font-size: 30px;
+    
+}
+#select{
+    background-color: gray ;
+}
+
+span{
+    position: absolute;
+    left: 590px;
+    top: 730px;
+    font-size: 15px;
+}
+
+
+@media(max-width:952px){
+    .top .img-logo{
+        font-size: 30px;
+        width: 70%;
+        height: 50%;
+        
+       
+    }
+    h2{
+        top: 300px;
+       margin: 0;
+       padding: 0;
+       
+       
+    }
+    select{
+        position: relative;
+        left: 210px;
+        top: 330px;
+        text-align: center;
+    }
+    label{
+        position: absolute;
+        left: 110px;
+        top: 480px;
+        font-size: 20px;
+    }
+    .container{
+        height: 100vh;
+        width: 100%;
+    }
+    body{
+        height: 100px;
+        width: 100%;
+    }
+    span{
+        position: absolute;
+        left: 80px;
+        top: 600px;
+        font-size: 15px;
+        
+    }
+}
+    
+  
+
